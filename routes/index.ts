@@ -3,6 +3,7 @@ import { login, signup } from "../controllers/userController";
 
 const router = express.Router();
 
+// Routes
 router.route("/login").post(login);
 router.route("/signup").post(signup);
 
